@@ -3,9 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banana Talk</title>
+    <title>Banana Speak</title>
+    <style>
+      textarea { 
+        width:90%;
+        height: 10vh;
+        display: block;
+        padding: 1rem;
+        margin: 1rem;
+      }
+      #output{
+        border: 1px solid;
+      }
+    </style>
 </head>
 <body>
-    
+  <h1>Talk Banana</h1>
+  <textarea id="text-input" 
+  placeholder="Put your sentence in english and it will convert it into banana"></textarea>
+  <button id="Click">Translate Me</button> 
+  <div id="output"></div>
+  <script src="App.Js" type="text/javascript"></script> 
 </body>
 </html>
